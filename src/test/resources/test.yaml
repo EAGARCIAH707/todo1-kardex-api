@@ -1,0 +1,17 @@
+jwt:
+  secret: test-secret
+server:
+  port: 8080
+  servlet:
+    context-path: /todo1-kardex/v1
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 0caf15f13865e0e37f1f280d5453d15c3a76648402fd3e903937ff9d60035692
+    url: jdbc:postgresql://ec2-34-228-154-153.compute-1.amazonaws.com:5432/dbcmq7i78fj8qg
+    username: yfdthnqkpjayrs
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
